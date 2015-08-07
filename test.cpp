@@ -1,10 +1,3 @@
-# xmath
-
-C++ library for Maths functions.
-
-## Example
-
-``` c++
 #include <iostream>
 #include "xmath.hpp"
 
@@ -25,14 +18,3 @@ int main() {
             cout << i << endl;
     }
 }
-```
-
-## Functions
-
-### bool xmath::isPrime(int number)
-
-Will return TRUE or FALSE, depending if the number is a prime number or not.
-
-## bool xmath::isPalindrome(int number)
-
-Will return TRUE or FALSE, depending if the number is a Palindrome or not.
