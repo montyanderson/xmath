@@ -33,6 +33,6 @@ int main() {
 
 Will return TRUE or FALSE, depending if the number is a prime number or not.
 
-## bool xmath::isPalindrome(int number)
+### bool xmath::isPalindrome(int number)
 
 Will return TRUE or FALSE, depending if the number is a Palindrome or not.
