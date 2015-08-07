@@ -2,6 +2,9 @@
 
 C++ library for Maths functions.
 
+**Note: Although this library is completely functional, it was made primarily as
+an educational project. Although I spent some time working on optimisations, this library uses slower/less complex methods. For production, I suggest you use a different maths library.**
+
 ## Example
 
 ``` c++
