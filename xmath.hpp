@@ -15,8 +15,8 @@ namespace xmath {
         return true;
     }
 
-    bool isPalindrome(int in) {
-        int num = in, out = 0;
+    int reverse(int num) {
+        int out = 0;
 
         while(num != 0) {
             out *= 10;
@@ -24,9 +24,25 @@ namespace xmath {
             num /= 10;
         }
 
-        if(in == out)
-            return true;
+        return out;
+    }
 
-        return false;
+    bool isPalindrome(int num) {
+        return num == reverse(num);
+    }
+
+    int collatz(long int num) {
+        int i;
+
+        for(i = 1; num != 1; i++) {
+            if(num % 2 == 0) {
+                num /= 2;
+            } else {
+                num *= 3;
+                num += 1;
+            }
+        }
+
+        return i;
     }
 }
