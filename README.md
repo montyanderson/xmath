@@ -1,6 +1,6 @@
 # xmath
 
-C++ library for Maths functions.
+C++ library for Maths functions, created after solving a number of [Project Euler Problems](https://github.com/montyanderson/euler).
 
 **Note: Although this library is completely functional, it was made primarily as
 an educational project. I did spend some time on speed, but this library is - by no means - the fastest.**
@@ -42,7 +42,7 @@ Returns TRUE or FALSE, depending if the number is a Palindrome or not.
 
 ### int xmath::reverse(int number)
 
-Returns the numbers reversed: 1234 -> 4321.
+Returns the number reversed: 1234 -> 4321.
 
 ### int xmath:collatz(int number)
 
