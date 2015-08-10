@@ -44,6 +44,6 @@ Returns TRUE or FALSE, depending if the number is a Palindrome or not.
 
 Returns the number reversed: 1234 -> 4321.
 
-### int xmath:collatz(int number)
+### int xmath::collatz(int number)
 
 Returns the amount of terms in the Collatz sequence: 13 -> 10.
