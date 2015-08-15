@@ -32,4 +32,9 @@ int main() {
     for(int i = 13; i < 21; i++) {
         cout << i << " - " << xmath::collatz(i) << endl;
     }
+
+    cout << "List powers of 2, 1 - 10:" << endl;
+
+    for(int i = 1; i < 11; i++)
+        cout << xmath::power(2, i) << endl;
 }

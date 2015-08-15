@@ -45,4 +45,13 @@ namespace xmath {
 
         return i;
     }
+
+    int power(long int num, long int p) {
+        int out = 1;
+
+        for(int i = 0; i < p; i++)
+            out *= num;
+
+        return out;
+    }
 }
